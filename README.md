@@ -51,3 +51,8 @@ IMPORTANT: You don't have to make a generic blog with posts. It can be ANYTHING!
 
 - struggling with when i need to 'use client'
 - and using 'use server'
+
+- getting api to work
+  asigning variable outside of function
+- using a key
+  -setting image alt tage to update by villager name

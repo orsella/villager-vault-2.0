@@ -17,6 +17,9 @@ export default async function Villagers({ searchParams }) {
   return (
     <>
       <h1>Villagers</h1>
+      <p class="text-center pt-2 font-semibold">
+        Click on a villager to find out more!
+      </p>
       <div className="icon-div">
         <p>Sort</p>
         <Link href="/villagers?sort=asc">
@@ -38,6 +41,7 @@ export default async function Villagers({ searchParams }) {
           />
         </Link>
       </div>
+
       <div className="villagers-container">
         {villagers.map((villager) => (
           <Link href={`/villagers/${villager.id}`} key={villager.id}>
