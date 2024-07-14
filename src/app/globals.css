@@ -140,14 +140,14 @@ button {
 }
 
 button:hover {
-  background-color: yellow;
+  background-color: rgb(255, 167, 249);
   color: #088976;
 }
 
 button:active {
   background-color: #088976;
   color: #eafcdc;
-  border: 2px solid yellow;
+  border: 2px solid rgb(255, 167, 249);
 }
 
 .icon-div {
@@ -211,7 +211,7 @@ h3 {
 .comment {
   width: 80vw;
   text-align: left;
-  padding-top: 2rem;
+  padding-top: 1rem;
   border-top: 2px solid #088976;
 }
 
@@ -253,10 +253,10 @@ h3 {
   }
 
   .main-container {
-    margin: 2rem 0;
+    margin: 1rem 0;
     width: 80vw;
     min-height: fit-content;
-    padding: 3rem;
+    padding: 1rem;
     border-radius: 15px;
   }
 
@@ -276,7 +276,7 @@ h3 {
   }
 
   .form-villager {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   form > input {
@@ -317,8 +317,20 @@ h3 {
 }
 
 @media (min-width: 1024px) {
+  p {
+    font-size: 1em;
+  }
+
   .main-container {
     width: 70vw;
+  }
+
+  .nav {
+    padding: 0.5rem;
+  }
+
+  .intro {
+    padding: 0.2rem 0;
   }
 
   .icon-div {
@@ -330,6 +342,11 @@ h3 {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     width: 50vw;
+    padding-bottom: 1rem;
+  }
+
+  .villager {
+    margin-bottom: 0;
   }
 
   .individual-villager-div {
@@ -366,8 +383,27 @@ h3 {
     width: 50vw;
   }
 
+  .comment {
+    padding-top: 1rem;
+  }
+
+  .comment-div {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  form {
+    padding-bottom: 0.5rem;
+    padding-top: 0;
+  }
+
   form > input {
     width: 50vw;
+  }
+
+  .whole-comment-div {
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
   }
 
   .birthday-div > input {
