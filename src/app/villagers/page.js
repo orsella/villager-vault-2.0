@@ -10,6 +10,7 @@ export default async function Villagers({ searchParams }) {
 
   // access the query parameters from the URL using searchParams object
   // villagers?sort=desc, searchParams.sort
+  // being sorted by time added
   if (searchParams.sort === "desc") {
     villagers.reverse();
   }

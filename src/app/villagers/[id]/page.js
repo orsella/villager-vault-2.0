@@ -77,7 +77,7 @@ export default async function IndividualVillager({ params }) {
           </div>
         </div>
       ))}
-      <h1 className="comment">Comments</h1>
+      <h3 className="comment">Comments</h3>
       <form action={handleSubmit}>
         <label htmlFor="name">Your Name</label>
         <input type="text" name="name" required />
@@ -85,7 +85,7 @@ export default async function IndividualVillager({ params }) {
         <input type="text" name="comment" required />
         <button type="submit">Submit</button>
       </form>
-      <div>
+      <div className="whole-comment-div">
         {comments.map((info) => (
           <div className="comment-div" key={info.id}>
             <p>Name: {info.name}</p>
