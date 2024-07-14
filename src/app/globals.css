@@ -41,7 +41,6 @@ h3 {
 h1 {
   color: #088976;
   font-size: 2.5em;
-  /* padding-bottom: 1rem; */
 }
 
 p {
@@ -131,7 +130,6 @@ form > select:focus {
 }
 
 button {
-  /* width: 100%; */
   margin-top: 0.5rem;
   padding: 0.5rem 2rem;
   background-color: #088976;
@@ -165,7 +163,6 @@ button:active {
 }
 
 .villagers-container {
-  /* padding-top: 1rem; */
   width: 80vw;
 }
 
@@ -186,7 +183,6 @@ button:active {
 
 h3 {
   font-size: 1.3em;
-  /* font-weight: bold; */
   color: #088976;
 }
 
@@ -197,7 +193,6 @@ h3 {
 .individual-villager-div {
   text-align: center;
   width: 80vw;
-  /* background-color: #f5feed; */
   border-radius: 15px;
   padding: 1rem;
 }
@@ -207,10 +202,6 @@ h3 {
   justify-content: center;
   padding: 0.5rem 0;
 }
-
-/* .individual-villager-div > h1 {
-  text-align: center;
-} */
 
 .individual-villager-div > p {
   color: #088976;
@@ -265,15 +256,8 @@ h3 {
     font-size: 1.5em;
   }
 
-  .icon-div {
-    width: 60vw;
-  }
-
-  .villagers-container {
-    /* padding-top: 1rem; */
-    width: 60vw;
-  }
-
+  .icon-div,
+  .villagers-container,
   .individual-villager-div {
     width: 60vw;
   }
@@ -291,14 +275,8 @@ h3 {
     width: 60vw;
   }
 
-  .comment {
-    width: 60vw;
-  }
-
-  .comment-div {
-    width: 60vw;
-  }
-
+  .comment,
+  .comment-div,
   .personality {
     width: 60vw;
   }
@@ -332,10 +310,7 @@ h3 {
 
 @media (min-width: 1024px) {
   .main-container {
-    /* margin: 2rem 0; */
     width: 70vw;
-    /* height: auto; */
-    /* padding: 3rem; */
   }
 
   .icon-div {
@@ -376,23 +351,14 @@ h3 {
     grid-column-start: 2;
   }
 
-  form {
+  form,
+  .comment,
+  .comment-div,
+  .personality {
     width: 50vw;
   }
 
   form > input {
-    width: 50vw;
-  }
-
-  .comment {
-    width: 50vw;
-  }
-
-  .comment-div {
-    width: 50vw;
-  }
-
-  .personality {
     width: 50vw;
   }
 
