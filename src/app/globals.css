@@ -10,6 +10,10 @@ h3 {
   font-weight: bold;
 }
 
+span {
+  color: rgb(255, 114, 246);
+}
+
 .main-container {
   padding: 1rem;
   width: 100vw;
@@ -196,6 +200,7 @@ h3 {
   width: 80vw;
   border-radius: 15px;
   padding: 1rem;
+  padding-top: 0;
 }
 
 .individual-villager-image {
@@ -352,14 +357,13 @@ h3 {
   .individual-villager-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
     width: 50vw;
   }
 
   /* h1 only */
   .individual-villager-name {
     grid-column: 1 / span 2;
-    padding-bottom: 1rem;
   }
 
   /* image only */
@@ -374,6 +378,9 @@ h3 {
     text-align: start;
     grid-row-start: 2;
     grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   form,

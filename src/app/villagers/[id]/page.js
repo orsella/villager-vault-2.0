@@ -66,14 +66,27 @@ export default async function IndividualVillager({ params }) {
             />
           </div>
           <div className="individual-villager-container">
-            <p class="font-semibold">Species: {info.species}</p>
-            <p class="font-semibold">Personality: {info.personality}</p>
             <p class="font-semibold">
-              Birthday: {info.day} {info.month}
+              Species: <span>{info.species}</span>
             </p>
-            <p class="font-semibold">Birthday Sign: {apiData.sign}</p>
-            <p class="font-semibold">Favourite Quote: {apiData.quote}</p>
-            <p class="font-semibold">Favourite Clothing: {apiData.clothing}</p>
+            <p class="font-semibold">
+              Personality: <span>{info.personality}</span>
+            </p>
+            <p class="font-semibold">
+              Birthday:{" "}
+              <span>
+                {info.day} {info.month}
+              </span>
+            </p>
+            <p class="font-semibold">
+              Birthday Sign: <span>{apiData.sign}</span>
+            </p>
+            <p class="font-semibold">
+              Favourite Quote: <span>{apiData.quote}</span>
+            </p>
+            <p class="font-semibold">
+              Favourite Clothing: <span>{apiData.clothing}</span>
+            </p>
           </div>
         </div>
       ))}
